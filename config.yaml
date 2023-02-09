@@ -1,0 +1,92 @@
+baseURL: "https://www.example.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Foyo Studio"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Foyo Studio"
+  description: "我们提供应用IT架构、敏捷开发和基于开源解决方案方面的专家顾问。"
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "中国　福建　福州"
+
+  contact:
+    - "laidingqing@gmail.com"
+    - "service@foyolabs.com"
+
+  copyright: "© 2023 Foyo Studio All Rights Reserved"
+
+  postProcess: false
+
+menus:
+  main:
+    - name: "首页"
+      url: "/#hero"
+      weight: 1
+
+    - name: "开源"
+      url: "/#"
+      weight: 2
+
+    - name: "解决方案"
+      url: "/#"
+      weight: 3
+
+    - name: "文档"
+      url: "/#"
+      weight: 4
+
+    - name: "博客"
+      url: "/blog"
+      weight: 5
+
+  buttons:
+    - name: "商业支持"
+      url: "/#"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How we work"
+      url: "/#"
+      weight: 2
+
+    - name: "Our team"
+      url: "/#"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"
